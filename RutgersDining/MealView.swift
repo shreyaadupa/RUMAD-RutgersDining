@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MealView.swift
 //  RutgersDining
 //
 //  Created by Shreya Adupa on 3/12/23.
@@ -7,21 +7,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MealView: View {
     var body: some View {
-        Text("RUTGERS DINING")
+        Text("Meals")
             .font(.title)
             .fontWeight(.bold)
             .padding()
-
-        
-            
-              
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MealView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MealView()
     }
 }

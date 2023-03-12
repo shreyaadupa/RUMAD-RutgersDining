@@ -11,6 +11,8 @@
 		D881DDF029BE84560074CBD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DDEF29BE84560074CBD8 /* ContentView.swift */; };
 		D881DDF229BE84580074CBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D881DDF129BE84580074CBD8 /* Assets.xcassets */; };
 		D881DDF529BE84580074CBD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D881DDF429BE84580074CBD8 /* Preview Assets.xcassets */; };
+		D881DDFC29BE88EF0074CBD8 /* DiningHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DDFB29BE88EF0074CBD8 /* DiningHall.swift */; };
+		D881DDFE29BE8FA40074CBD8 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DDFD29BE8FA40074CBD8 /* MealView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D881DDEF29BE84560074CBD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D881DDF129BE84580074CBD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D881DDF429BE84580074CBD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D881DDFB29BE88EF0074CBD8 /* DiningHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHall.swift; sourceTree = "<group>"; };
+		D881DDFD29BE8FA40074CBD8 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D881DDED29BE84560074CBD8 /* RutgersDiningApp.swift */,
 				D881DDEF29BE84560074CBD8 /* ContentView.swift */,
+				D881DDFB29BE88EF0074CBD8 /* DiningHall.swift */,
+				D881DDFD29BE8FA40074CBD8 /* MealView.swift */,
 				D881DDF129BE84580074CBD8 /* Assets.xcassets */,
 				D881DDF329BE84580074CBD8 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D881DDFC29BE88EF0074CBD8 /* DiningHall.swift in Sources */,
 				D881DDF029BE84560074CBD8 /* ContentView.swift in Sources */,
 				D881DDEE29BE84560074CBD8 /* RutgersDiningApp.swift in Sources */,
+				D881DDFE29BE8FA40074CBD8 /* MealView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

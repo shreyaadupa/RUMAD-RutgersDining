@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MealView: View {
     var body: some View {
-        Text("Meals")
+        Text("Meals")//add to navbar
             .font(.title)
             .fontWeight(.bold)
             .padding()

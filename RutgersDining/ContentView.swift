@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("RUTGERS DINING")
+        Text("RUTGERS DINING")//mid screen
             .font(.title)
             .fontWeight(.bold)
             .padding()

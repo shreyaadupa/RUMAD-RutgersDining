@@ -9,10 +9,24 @@ import SwiftUI
 
 struct DiningHall: View {
     var body: some View {
-        Text("DINING HALLS")//add to navbar
-            .font(.title)
-            .fontWeight(.bold)
-            .padding()
+        ScrollView
+        {
+            SelectItem()
+        }
+            .overlay(
+                ZStack
+                {
+                    Color.clear
+                        .background(.ultraThinMaterial)
+                        .blur(radius: 10)
+                    
+                    Text("Dining Halls")
+                        .font(.largeTitle.weight(.bold))
+                }
+                    .frame(width: 250, height: 50)
+                .frame(maxHeight: .infinity, alignment: .top)
+                
+            )
         
     }
 }

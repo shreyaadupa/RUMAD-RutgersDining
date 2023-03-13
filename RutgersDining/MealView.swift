@@ -9,10 +9,24 @@ import SwiftUI
 
 struct MealView: View {
     var body: some View {
-        Text("Meals")//add to navbar
-            .font(.title)
-            .fontWeight(.bold)
-            .padding()
+        ScrollView
+        {
+            SelectItem()
+        }
+            .overlay(
+                ZStack
+                {
+                    Color.clear
+                        .background(.ultraThinMaterial)
+                        .blur(radius: 10)
+                    
+                    Text("Meals")
+                        .font(.largeTitle.weight(.bold))
+                }
+                    .frame(width: 250, height: 50)
+                .frame(maxHeight: .infinity, alignment: .top)
+                
+            )
     }
 }
 

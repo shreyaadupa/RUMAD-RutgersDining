@@ -14,6 +14,7 @@
 		D881DDFC29BE88EF0074CBD8 /* DiningHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DDFB29BE88EF0074CBD8 /* DiningHall.swift */; };
 		D881DDFE29BE8FA40074CBD8 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DDFD29BE8FA40074CBD8 /* MealView.swift */; };
 		D881DE0429BFA17F0074CBD8 /* SelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DE0329BFA17F0074CBD8 /* SelectItem.swift */; };
+		D881DE0A29C122210074CBD8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DE0929C122210074CBD8 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D881DDFB29BE88EF0074CBD8 /* DiningHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHall.swift; sourceTree = "<group>"; };
 		D881DDFD29BE8FA40074CBD8 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		D881DE0329BFA17F0074CBD8 /* SelectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectItem.swift; sourceTree = "<group>"; };
+		D881DE0929C122210074CBD8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D881DDED29BE84560074CBD8 /* RutgersDiningApp.swift */,
+				D881DE0929C122210074CBD8 /* CardView.swift */,
 				D881DDEF29BE84560074CBD8 /* ContentView.swift */,
 				D881DDFB29BE88EF0074CBD8 /* DiningHall.swift */,
 				D881DDFD29BE8FA40074CBD8 /* MealView.swift */,
@@ -150,6 +153,7 @@
 				D881DDF029BE84560074CBD8 /* ContentView.swift in Sources */,
 				D881DDEE29BE84560074CBD8 /* RutgersDiningApp.swift in Sources */,
 				D881DDFE29BE8FA40074CBD8 /* MealView.swift in Sources */,
+				D881DE0A29C122210074CBD8 /* CardView.swift in Sources */,
 				D881DE0429BFA17F0074CBD8 /* SelectItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

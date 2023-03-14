@@ -9,12 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("RUTGERS DINING")//mid screen
-            .font(.title)
-            .fontWeight(.bold)
-            .padding()
-
         
+        ZStack{
+            LinearGradient(gradient: Gradient(colors: [Color.white, Color.red, Color.white]), startPoint: .topLeading, endPoint: .bottomTrailing).ignoresSafeArea()
+            
+            VStack{
+                
+                Text("RUTGERS DINING")//mid screen
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .padding()
+                                
+                
+            }
+            
+            
+            
+        }
+        
+
             
               
     }
@@ -23,5 +36,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        
     }
 }

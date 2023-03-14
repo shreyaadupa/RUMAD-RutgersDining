@@ -16,17 +16,28 @@ struct DiningHall: View {
             .overlay(
                 ZStack
                 {
+                    
                     Color.clear
                         .background(.ultraThinMaterial)
                         .blur(radius: 10)
                     
                     Text("Dining Halls")
                         .font(.largeTitle.weight(.bold))
+                    
+//get the cardview to show here in the dininghall view
+                    
                 }
                     .frame(width: 250, height: 50)
                 .frame(maxHeight: .infinity, alignment: .top)
                 
+                
+                
             )
+        
+        
+        
+        
+        
         
     }
 }

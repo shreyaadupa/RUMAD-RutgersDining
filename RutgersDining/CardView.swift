@@ -20,7 +20,7 @@ struct CardView: View {
             Spacer()
         }
         .background(RoundedRectangle(cornerRadius: 16).fill(Color.white).shadow(radius: 4))
-        .frame(width: 200, height: 200)
+        .frame(width: 200, height: 250)
     }
 }
 

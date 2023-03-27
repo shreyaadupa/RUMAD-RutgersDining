@@ -16,6 +16,7 @@
 		D881DE0429BFA17F0074CBD8 /* SelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DE0329BFA17F0074CBD8 /* SelectItem.swift */; };
 		D881DE0A29C122210074CBD8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DE0929C122210074CBD8 /* CardView.swift */; };
 		D881DE0C29C333530074CBD8 /* MenuCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881DE0B29C333530074CBD8 /* MenuCardView.swift */; };
+		D8FB197D29D20AD000FAF52C /* CalorieTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB197C29D20AD000FAF52C /* CalorieTrackerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D881DE0329BFA17F0074CBD8 /* SelectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectItem.swift; sourceTree = "<group>"; };
 		D881DE0929C122210074CBD8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D881DE0B29C333530074CBD8 /* MenuCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCardView.swift; sourceTree = "<group>"; };
+		D8FB197C29D20AD000FAF52C /* CalorieTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieTrackerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		D881DDEC29BE84560074CBD8 /* RutgersDining */ = {
 			isa = PBXGroup;
 			children = (
+				D8FB197C29D20AD000FAF52C /* CalorieTrackerView.swift */,
 				D881DE0B29C333530074CBD8 /* MenuCardView.swift */,
 				D881DDED29BE84560074CBD8 /* RutgersDiningApp.swift */,
 				D881DE0929C122210074CBD8 /* CardView.swift */,
@@ -156,6 +159,7 @@
 				D881DDFC29BE88EF0074CBD8 /* DiningHall.swift in Sources */,
 				D881DDF029BE84560074CBD8 /* ContentView.swift in Sources */,
 				D881DDEE29BE84560074CBD8 /* RutgersDiningApp.swift in Sources */,
+				D8FB197D29D20AD000FAF52C /* CalorieTrackerView.swift in Sources */,
 				D881DDFE29BE8FA40074CBD8 /* MealView.swift in Sources */,
 				D881DE0A29C122210074CBD8 /* CardView.swift in Sources */,
 				D881DE0429BFA17F0074CBD8 /* SelectItem.swift in Sources */,
